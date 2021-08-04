@@ -9,7 +9,6 @@ for i in range(1, n + 1):
         result[i + j] += 1
 
 max = max(result)
-
 for idx, x in enumerate(result):
     if x == max:
         print(idx, end=' ')
